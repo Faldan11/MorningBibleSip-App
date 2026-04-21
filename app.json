@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "Morning Bible Sip",
+    "slug": "morning-bible-sip",
+    "version": "1.2",
+    "scheme": "morningbiblesip",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "url": "https://u.expo.dev/9f1db13d-9ff0-48f9-9b94-f2eab7bab8aa"
+    },
+    "runtimeVersion": "1.2.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.morningbiblesip.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.morningbiblesip.app",
+      "versionCode": 20,
+      "softwareKeyboardLayoutMode": "adjustResize",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ]
+    },
+    "androidStatusBar": {
+      "translucent": true,
+      "backgroundColor": "#00000000"
+    },
+    "androidNavigationBar": {
+      "visible": "leanback",
+      "backgroundColor": "#00000000"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "appwriteEndpoint": "https://fra.cloud.appwrite.io/v1",
+      "appwriteProjectId": "faldan01",
+      "appwriteDatabaseId": "morning-bible-sip",
+      "appwriteVersesCollectionId": "verses",
+      "appwritePostsCollectionId": "posts",
+      "appwriteJournalCollectionId": "journal",
+      "privacyPolicyUrl": "https://morningbiblesip.com/privacy-policy",
+      "eas": {
+        "projectId": "9f1db13d-9ff0-48f9-9b94-f2eab7bab8aa"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-9224681585676816~2250380155",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ],
+      [
+        "react-native-iap",
+        {
+          "paymentProvider": "Play Store"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "useLegacyPackaging": true,
+            "targetSdkVersion": 35,
+            "compileSdkVersion": 35
+          }
+        }
+      ],
+      "expo-web-browser",
+      "@react-native-community/datetimepicker"
+    ],
+    "owner": "faldan11"
+  }
+}

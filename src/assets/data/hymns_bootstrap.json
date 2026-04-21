@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Amazing Grace",
+    "author": "John Newton",
+    "lyrics": "Amazing grace! how sweet the sound,\nThat saved a wretch; like me!\nI once was lost, but now am found,\nWas blind, but now I see.\n\n'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!",
+    "category": "Grace"
+  },
+  {
+    "id": 2,
+    "title": "How Great Thou Art",
+    "author": "Carl Gustav Boberg",
+    "lyrics": "O Lord my God, When I in awesome wonder,\nConsider all the worlds Thy Hands have made;\nI see the stars, I hear the rolling thunder,\nThy power throughout the universe displayed.\n\nThen sings my soul, My Saviour God, to Thee,\nHow great Thou art, How great Thou art.",
+    "category": "Praise"
+  },
+  {
+    "id": 3,
+    "title": "It Is Well with My Soul",
+    "author": "Horatio Spafford",
+    "lyrics": "When peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll;\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul.",
+    "category": "Comfort"
+  },
+  {
+    "id": 4,
+    "title": "Great Is Thy Faithfulness",
+    "author": "Thomas Chisholm",
+    "lyrics": "Great is Thy faithfulness, O God my Father,\nThere is no shadow of turning with Thee;\nThou changest not, Thy compassions, they fail not\nAs Thou hast been Thou forever wilt be.",
+    "category": "Faithfulness"
+  },
+  {
+    "id": 5,
+    "title": "Blessed Assurance",
+    "author": "Fanny Crosby",
+    "lyrics": "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHier of salvation, purchase of God,\nBorn of His Spirit, washed in His blood.",
+    "category": "Assurance"
+  },
+  {
+    "id": 6,
+    "title": "To God Be the Glory",
+    "author": "Fanny Crosby",
+    "lyrics": "To God be the glory, great things He has done;\nSo loved He the world that He gave us His Son,\nWho yielded His life an atonement for sin,\nAnd opened the life gate that all may go in.",
+    "category": "Praise"
+  },
+  {
+    "id": 7,
+    "title": "The Old Rugged Cross",
+    "author": "George Bennard",
+    "lyrics": "On a hill far away stood an old rugged cross,\nThe emblem of suffering and shame;\nAnd I love that old cross where the dearest and best\nFor a world of lost sinners was slain.",
+    "category": "Cross"
+  },
+  {
+    "id": 8,
+    "title": "Just As I Am",
+    "author": "Charlotte Elliott",
+    "lyrics": "Just as I am, without one plea,\nBut that Thy blood was shed for me,\nAnd that Thou bidst me come to Thee,\nO Lamb of God, I come, I come.",
+    "category": "Invitation"
+  },
+  {
+    "id": 9,
+    "title": "In the Garden",
+    "author": "C. Austin Miles",
+    "lyrics": "I come to the garden alone,\nWhile the dew is still on the roses,\nAnd the voice I hear falling on my ear,\nThe Son of God discloses.",
+    "category": "Fellowship"
+  },
+  {
+    "id": 10,
+    "title": "What a Friend We Have in Jesus",
+    "author": "Joseph Scriven",
+    "lyrics": "What a friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!",
+    "category": "Prayer"
+  }
+]
