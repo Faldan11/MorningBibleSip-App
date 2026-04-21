@@ -81,8 +81,8 @@
         {
           "android": {
             "useLegacyPackaging": true,
-            "targetSdkVersion": 35,
-            "compileSdkVersion": 35
+            "targetSdkVersion": 34,
+            "compileSdkVersion": 34
           }
         }
       ],
@@ -90,9 +90,5 @@
       "@react-native-community/datetimepicker"
     ],
     "owner": "faldan11"
-  },
-  "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-9224681585676816~2250380155",
-    "ios_app_id": "ca-app-pub-3940256099942544~1458002511"
   }
 }
