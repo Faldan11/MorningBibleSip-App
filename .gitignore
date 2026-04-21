@@ -13,3 +13,5 @@ web-build/
 *.apk
 *.aab
 *.zip
+android/
+ios/

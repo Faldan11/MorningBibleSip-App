@@ -20,8 +20,8 @@ export default function PrayerDetail() {
   const [hasAmen, setHasAmen] = React.useState(false);
 
   // Try to find an audio URL in the post content or metadata
-  const audioUrl = item.audio_url || 
-    item.content.rendered.match(/src="([^"]+\.mp3)"/)?.[1];
+  const audioUrl = item?.audio_url || 
+    item?.content?.rendered?.match(/src="([^"]+\.mp3)"/)?.[1];
 
   async function playSound() {
     if (sound) {
