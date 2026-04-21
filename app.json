@@ -29,7 +29,7 @@
         "foregroundImage": "./assets/adaptive-icon.jpg",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.morningbible-sip.app",
+      "package": "com.morningbiblesip.app",
       "versionCode": 21,
       "softwareKeyboardLayoutMode": "resize",
       "permissions": [
