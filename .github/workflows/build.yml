@@ -38,6 +38,8 @@ jobs:
         run: npm install
 
       - name: Build APK Locally on GitHub
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: eas build --platform android --profile preview --local --non-interactive
 
       - name: Upload APK Artifact
