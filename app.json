@@ -39,11 +39,9 @@
       ]
     },
     "androidStatusBar": {
-      "translucent": true,
-      "backgroundColor": "#00000000"
+      "translucent": true
     },
     "androidNavigationBar": {
-      "visible": "leanback",
       "backgroundColor": "#00000000"
     },
     "web": {
