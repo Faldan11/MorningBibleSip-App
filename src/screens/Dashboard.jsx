@@ -12,7 +12,6 @@ import Animated, {
   useSharedValue, 
   withSpring,
   withTiming,
-  withDelay,
   Easing
 } from 'react-native-reanimated';
 import { useThemeColors } from '../theme/ThemeContext';
@@ -80,7 +79,7 @@ export default function Dashboard() {
       setJourney(getJourneyState(totalXp));
       setIsPremium(premium);
       
-      streakAnim.value = withDelay(500, withSpring(s > 0 ? (s % 7) / 7 : 0, { damping: 10 }));
+      streakAnim.value = withSpring(s > 0 ? (s % 7) / 7 : 0, { damping: 10, stiffness: 100 });
 
       const res = await fetch('https://morningbiblesip.com/wp-json/mbs/v1/app-dashboard');
       if (res.ok) {
